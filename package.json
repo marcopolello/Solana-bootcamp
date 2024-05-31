@@ -9,7 +9,9 @@
     "balance": "ts-node ./balance.ts",
     "transfer": "ts-node ./transfer.ts",
     "createMint": "ts-node ./spl_init.ts",
-    "createAccount": "ts-node ./spl_mint.ts"
+    "mintToken": "ts-node ./spl_mint.ts",
+    "tokenAccountAmount": "ts-node ./spl_amount.ts",
+    "transferToken": "ts-node ./spl_transfer.ts"
   },
   "dependencies": {
     "@solana/spl-token": "^0.4.6",

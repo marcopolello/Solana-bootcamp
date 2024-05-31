@@ -1,0 +1,3 @@
+il mint è una sotto tasca del mio wallet, funziona da segna posto.
+
+dal mint account posso creare il token account a cui posso mintare token partendo dal mintAccount
