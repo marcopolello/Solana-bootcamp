@@ -10,6 +10,7 @@
     "transfer": "ts-node ./transfer.ts",
     "createMint": "ts-node ./spl_init.ts",
     "mintToken": "ts-node ./spl_mint.ts",
+    "tokenAccountAmount": "ts-node ./spl_amount.ts",
     "transferToken": "ts-node ./spl_transfer.ts"
   },
   "dependencies": {
