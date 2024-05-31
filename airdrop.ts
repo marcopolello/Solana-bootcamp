@@ -5,7 +5,7 @@ import {
 } from "@solana/web3.js";
 
 // Importiamo la chiave privata del nostro wallet che abbiamo salvato dopo aver eseguito il comando "yarn keygen"
-import wallet from "./test2.json";
+import wallet from "./test.json";
 
 // Creiamo una nuova istanza di Keypair passando la chiave privata del nostro wallet come argomento
 const keypair = Keypair.fromSecretKey(new Uint8Array(wallet));
@@ -40,7 +40,7 @@ const connection = new Connection("https://api.devnet.solana.com", "finalized");
         // åRichiediamo un airdrop di 1 SOL al nostro wallet utilizzando il metodo requestAirdrop
         const airdropSignature = await connection.requestAirdrop(
             keypair.publicKey,      // Indirizzo del wallet a cui inviare i fondi
-            1 * LAMPORTS_PER_SOL    // Quantità di SOL richiesta (1 SOL = 1_000_000_000 LAMPORTS)
+            3 * LAMPORTS_PER_SOL    // Quantità di SOL richiesta (1 SOL = 1_000_000_000 LAMPORTS)
         );
 
         // Attendiamo la conferma della transazione e poi logghiamo il link alla transazione sull'explorer di Solana
