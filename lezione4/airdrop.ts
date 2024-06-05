@@ -5,7 +5,7 @@ import {
 } from "@solana/web3.js";
 
 // Importiamo la chiave privata del nostro wallet che abbiamo salvato dopo aver eseguito il comando "yarn keygen"
-import wallet from "./test.json";
+import wallet from "../wallet.json";
 
 // Creiamo una nuova istanza di Keypair passando la chiave privata del nostro wallet come argomento
 const keypair = Keypair.fromSecretKey(new Uint8Array(wallet));

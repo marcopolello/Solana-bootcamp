@@ -4,14 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "keygen": "ts-node ./keygen.ts",
-    "airdrop": "ts-node ./airdrop.ts",
-    "balance": "ts-node ./balance.ts",
-    "transfer": "ts-node ./transfer.ts",
-    "createMint": "ts-node ./spl_init.ts",
-    "mintToken": "ts-node ./spl_mint.ts",
-    "tokenAccountAmount": "ts-node ./spl_amount.ts",
-    "transferToken": "ts-node ./spl_transfer.ts"
+    "keygen": "ts-node ./lezione4/keygen.ts",
+    "airdrop": "ts-node ./lezione4/airdrop.ts",
+    "balance": "ts-node ./lezione4/balance.ts",
+    "transfer": "ts-node ./lezione4/transfer.ts",
+    "createMint": "ts-node ./lezione5/spl_init.ts",
+    "mintToken": "ts-node ./lezione5/spl_mint.ts",
+    "tokenAccountAmount": "ts-node ./lezione5/spl_amount.ts",
+    "transferToken": "ts-node ./lezione5/spl_transfer.ts"
   },
   "dependencies": {
     "@solana/spl-token": "^0.4.6",

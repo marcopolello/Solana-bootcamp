@@ -9,7 +9,7 @@ import {
 } from "@solana/web3.js";
 
 // Importiamo la chiave privata del nostro wallet che abbiamo salvato dopo aver eseguito il comando "yarn keygen"
-import wallet from "./test.json";
+import wallet from "../wallet.json";
 
 // Creiamo una nuova connessione con il cluster di devnet di Solana
 const connection = new Connection("https://api.devnet.solana.com", "finalized");
