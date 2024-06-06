@@ -1,5 +1,5 @@
 {
-  "name": "masterZ",
+  "name": "master-z",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -11,9 +11,14 @@
     "createMint": "ts-node ./lezione5/spl_init.ts",
     "mintToken": "ts-node ./lezione5/spl_mint.ts",
     "tokenAccountAmount": "ts-node ./lezione5/spl_amount.ts",
-    "transferToken": "ts-node ./lezione5/spl_transfer.ts"
+    "transferToken": "ts-node ./lezione5/spl_transfer.ts",
+    "uploadImage": "ts-node ./lezione6/uploadImage.ts",
+    "splMetadata": "ts-node ./lezione6/splMetadata.ts"
   },
   "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
+    "@metaplex-foundation/umi-uploader-irys": "^0.9.1",
     "@solana/spl-token": "^0.4.6",
     "@solana/web3.js": "^1.91.8",
     "@types/node": "^20.12.11",
